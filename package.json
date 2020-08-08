@@ -1,0 +1,22 @@
+{
+  "name": "devcamper_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node dist/server",
+    "dev": "nodemon dist/server",
+    "watchTSC": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
